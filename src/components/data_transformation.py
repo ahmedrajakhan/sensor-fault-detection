@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
-from src.utilis.main_utilis import MainUtilis
+from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
 
@@ -29,7 +29,7 @@ class DataTransformation:
 
         self.data_transformation_config = DataTransformationConfig()
 
-        self.utils = MainUtilis()
+        self.utils = MainUtils()
 
     @staticmethod
     def get_data(feature_store_file_path: str) ->pd.DataFrame:

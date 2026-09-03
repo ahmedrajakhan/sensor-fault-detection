@@ -7,7 +7,7 @@ from src.logger import logging
 from src.exception import CustomException
 from flask import Request
 from src.constant import *
-from src.utilis.main_utilis import MainUtilis
+from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
 @dataclass
@@ -20,10 +20,10 @@ class PredictionPipelineConfig:
 
 
 class PredictionPipeline:
-    def __init__(self, request: Request):
+    def __init__(self,request: Request):
 
         self.request = request
-        self.utils = MainUtilis()
+        self.utils = MainUtils()
         self.prediction_pipeline_config = PredictionPipelineConfig()
 
     def save_input_files(self) -> str:

@@ -7,7 +7,7 @@ from zipfile import Path
 from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
-from src.utilis.main_utilis import MainUtilis
+from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
 
@@ -19,7 +19,7 @@ class DataIngestionConfig:
 class DataIngestion:
     def __init__(self):
         self.data_ingestion_config= DataIngestionConfig()
-        self.utils = MainUtilis()
+        self.utils = MainUtils()
 
     def export_collection_as_dataframe(self,collection_name,db_name):
 

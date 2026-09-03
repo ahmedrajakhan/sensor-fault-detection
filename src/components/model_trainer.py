@@ -13,7 +13,7 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
-from src.utilis.main_utilis import MainUtilis
+from src.utils.main_utils import MainUtils
 
 
 from dataclasses import dataclass
@@ -41,7 +41,7 @@ class ModelTrainer:
 
 
 
-        self.utils = MainUtilis()
+        self.utils = MainUtils()
 
 
         self.models = {
