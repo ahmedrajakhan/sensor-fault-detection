@@ -1,6 +1,6 @@
 
 
-# ⚡ Sensor Fault Detection System
+#  Sensor Fault Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Framework](https://img.shields.io/badge/Framework-Flask%20%7C%20FastAPI-blue?style=for-the-badge)
