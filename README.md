@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Executive Summary
+ ## Executive Summary
 
 Industrial environments rely heavily on thousands of sensors monitoring temperature, pressure, vibration, and air flow. A single undetected sensor malfunction can lead to severe equipment downtime, costly repairs, or catastrophic system failure.
 
@@ -19,7 +19,7 @@ The **Sensor Fault Detection System** is an enterprise-grade, end-to-end Machine
 
 ---
 
-## 📐 System Architecture & End-to-End Workflow
+##  System Architecture & End-to-End Workflow
 
 The following architecture demonstrates the complete path from raw sensor data ingestion to cloud deployment:
 
@@ -65,7 +65,7 @@ The following architecture demonstrates the complete path from raw sensor data i
 
 ---
 
-## 🔬 In-Depth Module Breakdown
+##  In-Depth Module Breakdown
 
 ### 1. Data Ingestion (`src/components/data_ingestion.py`)
 
@@ -99,7 +99,7 @@ The following architecture demonstrates the complete path from raw sensor data i
 
 ---
 
-## 📂 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 sensor-fault-detection/
@@ -167,7 +167,7 @@ sensor-fault-detection/
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+##  Getting Started (Local Setup)
 
 ### Prerequisites
 
@@ -233,7 +233,7 @@ Access the web interface at: `http://localhost:8080`
 
 ---
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 To build and run the application locally within a Docker container:
 
@@ -254,7 +254,7 @@ docker run -p 8080:8080 sensor-fault-detection:latest
 
 ---
 
-## ☁️ Continuous Integration & Deployment (AWS CI/CD)
+##  Continuous Integration & Deployment (AWS CI/CD)
 
 The project leverages **GitHub Actions** for continuous integration and deployment directly to an **AWS EC2** instance via **AWS ECR**.
 
@@ -286,13 +286,13 @@ Add the following variables under **Settings > Secrets and Variables > Actions**
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-### 👤 Author
+###  Author
 
 **Ahmed Raja Khan**
 
